@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demo Admission test suite" time="152.188" tests="5" failures="0" errors="0">
+   <testsuite name="Demo Admission test suite" tests="5" failures="0" errors="0" time="152.188" skipped="0" timestamp="2023-06-20 11:46:38" hostname="Laxman Jagarlamud - LAPTOP-LNCQBP1R" id="Test Suites/Demo Admission test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Laxman Jagarlamud\\git\\qa-automation-regression-ui\\Reports\\20230620_114630\\Demo Admission test suite\\20230620_114630"/>
+         <property name="logFiles" value="C:\\Users\\Laxman Jagarlamud\\git\\qa-automation-regression-ui\\Reports\\20230620_114630\\Demo Admission test suite\\20230620_114630\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Laxman Jagarlamud - LAPTOP-LNCQBP1R"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.29"/>
+         <property name="sessionId" value="acb59e8f221cab35558d80830227353b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Admission/TC_54_Validate_Application_Search_Filter" time="70.467" classname="Test Cases/Admission/TC_54_Validate_Application_Search_Filter" status="PASSED">
+         <system-out><![CDATA[2023-06-20 11:46:38 - [TEST_CASE][PASSED] - Test Cases/Admission/TC_54_Validate_Application_Search_Filter: Test Cases/Admission/TC_54_Validate_Application_Search_Filter
+
+2023-06-20 11:46:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pre-Admission/TC_01_Validate the login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pre-Admission/TC_01_Validate the login' successfully
+
+2023-06-20 11:46:39 - [TEST_CASE][PASSED] - Test Cases/Pre-Admission/TC_01_Validate the login: Test Cases/Pre-Admission/TC_01_Validate the login
+
+2023-06-20 11:46:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-20 11:46:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-20 11:46:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-20 11:46:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-20 11:46:42 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://regression1.academiaerp.com/' successfully
+
+2023-06-20 11:46:43 - [MESSAGE][PASSED] - Navigate to 'https://regression1.academiaerp.com/' successfully
+
+2023-06-20 11:46:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-20 11:46:44 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-20 11:46:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/preadmission/TC_01/Page_Academia/Admin_tab")): Object: 'Object Repository/preadmission/TC_01/Page_Academia/Admin_tab' is clicked on
+
+2023-06-20 11:46:44 - [MESSAGE][PASSED] - Object: 'Object Repository/preadmission/TC_01/Page_Academia/Admin_tab' is clicked on
+
+2023-06-20 11:46:44 - [TEST_STEP][PASSED] - CommonActions.clickOnElementAndTypeText(findTestObject("Object Repository/preadmission/TC_01/Page_Academia/input_Username  Email_email"), Username, "Username textfield"): CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-20 11:46:46 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:46:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:46:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:46:48 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/preadmission/TC_01/Page_Academia/input_Username  Email_email'
+
+2023-06-20 11:46:49 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/preadmission/TC_01/Page_Academia/input_Username  Email_email'
+
+2023-06-20 11:46:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:46:50 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:46:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:46:51 - [MESSAGE][INFO] - Sent sysadminto the Username textfield
+
+2023-06-20 11:46:51 - [MESSAGE][PASSED] - CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-20 11:46:51 - [TEST_STEP][PASSED] - CommonActions.clickOnElementAndTypeText(findTestObject("Object Repository/preadmission/TC_01/Page_Academia/input_Password_password"), Password, "Password textfield"): CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-20 11:46:52 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:46:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:46:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:46:54 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/preadmission/TC_01/Page_Academia/input_Password_password'
+
+2023-06-20 11:46:55 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/preadmission/TC_01/Page_Academia/input_Password_password'
+
+2023-06-20 11:46:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:46:56 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:46:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:46:57 - [MESSAGE][INFO] - Sent passwordto the Password textfield
+
+2023-06-20 11:46:57 - [MESSAGE][PASSED] - CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-20 11:46:57 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/preadmission/TC_01/Page_Academia/input_Forgot password_signin"), "Sign in button"): Sign in button clicked once
+
+2023-06-20 11:46:58 - [MESSAGE][INFO] - Clicking on Sign in button
+
+2023-06-20 11:46:58 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:46:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:46:59 - [MESSAGE][PASSED] - Sign in button clicked once
+
+2023-06-20 11:46:59 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2023-06-20 11:47:29 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2023-06-20 11:47:29 - [TEST_STEP][PASSED] - CommonActions.elementPresent(findTestObject("Object Repository/preadmission/TC_01/Page_Academia/label_Administrator"), "Adminstartor portal header"): Delayed 1 second(s)
+
+2023-06-20 11:47:29 - [MESSAGE][INFO] - Validating element present or not
+
+2023-06-20 11:47:30 - [MESSAGE][PASSED] - Object 'Object Repository/preadmission/TC_01/Page_Academia/label_Administrator' is present
+
+2023-06-20 11:47:30 - [MESSAGE][PASSED] - Element clicked once
+
+2023-06-20 11:47:30 - [MESSAGE][INFO] - Adminstartor portal header is present
+
+2023-06-20 11:47:30 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:47:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:47:31 - [TEST_STEP][PASSED] - CommonActions.verifyExactElementText(findTestObject("Object Repository/preadmission/TC_01/Page_Academia/label_Administrator"), AdminPortalHeaderText, "Adminstartor portal header"): Delayed 1 second(s)
+
+2023-06-20 11:47:31 - [MESSAGE][PASSED] - Adminstartor portal headertext is verified
+
+2023-06-20 11:47:32 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:47:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:47:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pre-Admission/TC_01_Validate the login' successfully
+
+2023-06-20 11:47:33 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admissions Tab")): Object: 'Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admissions Tab' is hovered
+
+2023-06-20 11:47:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admissions Tab' is hovered
+
+2023-06-20 11:47:33 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admissions Tab"), "Admissions tab"): Admissions tab clicked once
+
+2023-06-20 11:47:34 - [MESSAGE][INFO] - Clicking on Admissions tab
+
+2023-06-20 11:47:34 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:47:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:47:35 - [MESSAGE][PASSED] - Admissions tab clicked once
+
+2023-06-20 11:47:35 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/TC_54_Validate_Application_Search_Filter/Applications"), "Application tab"): Application tab clicked once
+
+2023-06-20 11:47:37 - [MESSAGE][INFO] - Clicking on Application tab
+
+2023-06-20 11:47:37 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:47:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:47:38 - [MESSAGE][PASSED] - Application tab clicked once
+
+2023-06-20 11:47:38 - [TEST_STEP][PASSED] - CommonActions.elementPresent(findTestObject("Object Repository/Admission/TC_54_Validate_Application_Search_Filter/Application Tab"), "Application tab"): Delayed 1 second(s)
+
+2023-06-20 11:47:40 - [MESSAGE][INFO] - Validating element present or not
+
+2023-06-20 11:47:40 - [MESSAGE][PASSED] - Object 'Object Repository/Admission/TC_54_Validate_Application_Search_Filter/Application Tab' is present
+
+2023-06-20 11:47:40 - [MESSAGE][PASSED] - Element clicked once
+
+2023-06-20 11:47:40 - [MESSAGE][INFO] - Application tab is present
+
+2023-06-20 11:47:41 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:47:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:47:42 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Search button"), "search button"): search button clicked once
+
+2023-06-20 11:47:42 - [MESSAGE][INFO] - Clicking on search button
+
+2023-06-20 11:47:42 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:47:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:47:44 - [MESSAGE][PASSED] - search button clicked once
+
+2023-06-20 11:47:44 - [TEST_STEP][PASSED] - CommonActions.elementPresent(findTestObject("Object Repository/Admission/TC_54_Validate_Application_Search_Filter/Search results header"), "Search results header"): Delayed 1 second(s)
+
+2023-06-20 11:47:47 - [MESSAGE][INFO] - Validating element present or not
+
+2023-06-20 11:47:47 - [MESSAGE][PASSED] - Object 'Object Repository/Admission/TC_54_Validate_Application_Search_Filter/Search results header' is present
+
+2023-06-20 11:47:47 - [MESSAGE][PASSED] - Element clicked once
+
+2023-06-20 11:47:47 - [MESSAGE][INFO] - Search results header is present
+
+2023-06-20 11:47:48 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:47:49 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admission/TC_55_Validate_Application_profile_work experiance" time="45.876" classname="Test Cases/Admission/TC_55_Validate_Application_profile_work experiance" status="PASSED">
+         <system-out><![CDATA[2023-06-20 11:47:49 - [TEST_CASE][PASSED] - Test Cases/Admission/TC_55_Validate_Application_profile_work experiance: Test Cases/Admission/TC_55_Validate_Application_profile_work experiance
+
+2023-06-20 11:47:49 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Search button"), "search button"): search button clicked once
+
+2023-06-20 11:47:49 - [MESSAGE][INFO] - Clicking on search button
+
+2023-06-20 11:47:50 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:47:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:47:51 - [MESSAGE][PASSED] - search button clicked once
+
+2023-06-20 11:47:51 - [TEST_STEP][PASSED] - CommonActions.elementPresent(findTestObject("Object Repository/Admission/TC_54_Validate_Application_Search_Filter/Search results header"), "Search results header"): Delayed 1 second(s)
+
+2023-06-20 11:47:54 - [MESSAGE][INFO] - Validating element present or not
+
+2023-06-20 11:47:54 - [MESSAGE][PASSED] - Object 'Object Repository/Admission/TC_54_Validate_Application_Search_Filter/Search results header' is present
+
+2023-06-20 11:47:54 - [MESSAGE][PASSED] - Element clicked once
+
+2023-06-20 11:47:54 - [MESSAGE][INFO] - Search results header is present
+
+2023-06-20 11:47:54 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:47:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:47:55 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Row Selection"), "First row is selected"): First row is selected clicked once
+
+2023-06-20 11:47:56 - [MESSAGE][INFO] - Clicking on First row is selected
+
+2023-06-20 11:47:56 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:47:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:47:57 - [MESSAGE][PASSED] - First row is selected clicked once
+
+2023-06-20 11:47:57 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Edit Buttton"), "Edit button"): Edit button clicked once
+
+2023-06-20 11:47:58 - [MESSAGE][INFO] - Clicking on Edit button
+
+2023-06-20 11:47:58 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:47:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:04 - [MESSAGE][PASSED] - Edit button clicked once
+
+2023-06-20 11:48:04 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/History tab"), "History"): History clicked once
+
+2023-06-20 11:48:07 - [MESSAGE][INFO] - Clicking on History
+
+2023-06-20 11:48:07 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:48:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:08 - [MESSAGE][PASSED] - History clicked once
+
+2023-06-20 11:48:08 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/Work experience option"), "Work experience"): Work experience clicked once
+
+2023-06-20 11:48:09 - [MESSAGE][INFO] - Clicking on Work experience
+
+2023-06-20 11:48:09 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:48:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:11 - [MESSAGE][PASSED] - Work experience clicked once
+
+2023-06-20 11:48:11 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Nested Tab Add button"), "Add button experience"): Add button experience clicked once
+
+2023-06-20 11:48:12 - [MESSAGE][INFO] - Clicking on Add button experience
+
+2023-06-20 11:48:12 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:48:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:14 - [MESSAGE][PASSED] - Add button experience clicked once
+
+2023-06-20 11:48:14 - [TEST_STEP][PASSED] - CommonActions.clickOnElementAndTypeText(findTestObject("Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/Employer text field"), "Test employee", "Employer text field"): CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-20 11:48:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:48:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:17 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/Employer text field'
+
+2023-06-20 11:48:17 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/Employer text field'
+
+2023-06-20 11:48:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:19 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:48:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:20 - [MESSAGE][INFO] - Sent Test employeeto the Employer text field
+
+2023-06-20 11:48:20 - [MESSAGE][PASSED] - CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-20 11:48:20 - [TEST_STEP][PASSED] - CommonActions.clickOnElementAndTypeText(findTestObject("Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/department text field"), "Test departnment", "Department text field"): CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-20 11:48:21 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:48:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:23 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/department text field'
+
+2023-06-20 11:48:24 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/department text field'
+
+2023-06-20 11:48:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:25 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:48:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:26 - [MESSAGE][INFO] - Sent Test departnmentto the Department text field
+
+2023-06-20 11:48:26 - [MESSAGE][PASSED] - CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-20 11:48:26 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/Joining date"), "Joining date"): Joining date clicked once
+
+2023-06-20 11:48:26 - [MESSAGE][INFO] - Clicking on Joining date
+
+2023-06-20 11:48:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:48:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:28 - [MESSAGE][PASSED] - Joining date clicked once
+
+2023-06-20 11:48:28 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Today button calendar"), "Today button calendar"): Today button calendar clicked once
+
+2023-06-20 11:48:28 - [MESSAGE][INFO] - Clicking on Today button calendar
+
+2023-06-20 11:48:29 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:48:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:30 - [MESSAGE][PASSED] - Today button calendar clicked once
+
+2023-06-20 11:48:30 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Submit Button Floating Window"), "Save experience"): Save experience clicked once
+
+2023-06-20 11:48:30 - [MESSAGE][INFO] - Clicking on Save experience
+
+2023-06-20 11:48:31 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:48:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:32 - [MESSAGE][PASSED] - Save experience clicked once
+
+2023-06-20 11:48:32 - [TEST_STEP][PASSED] - CommonActions.elementPresent(findTestObject("Object Repository/Admission/CommonObjects/Successful alert"), "Saved work experience"): Delayed 1 second(s)
+
+2023-06-20 11:48:33 - [MESSAGE][INFO] - Validating element present or not
+
+2023-06-20 11:48:33 - [MESSAGE][PASSED] - Object 'Object Repository/Admission/CommonObjects/Successful alert' is present
+
+2023-06-20 11:48:33 - [MESSAGE][PASSED] - Element clicked once
+
+2023-06-20 11:48:33 - [MESSAGE][INFO] - Saved work experience is present
+
+2023-06-20 11:48:34 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:48:35 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admission/TC_56_Verified_Edit_Work profile" time="15.925" classname="Test Cases/Admission/TC_56_Verified_Edit_Work profile" status="PASSED">
+         <system-out><![CDATA[2023-06-20 11:48:35 - [TEST_CASE][PASSED] - Test Cases/Admission/TC_56_Verified_Edit_Work profile: Test Cases/Admission/TC_56_Verified_Edit_Work profile
+
+2023-06-20 11:48:35 - [TEST_STEP][PASSED] - CommonActions.selectLastRow(findTestObject("Object Repository/Admission/CommonObjects/Tab rows list nested")): CommonActions.selectLastRow is PASSED
+
+2023-06-20 11:48:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-20 11:48:37 - [MESSAGE][PASSED] - CommonActions.selectLastRow is PASSED
+
+2023-06-20 11:48:37 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Nested Edit button"), "Edit button"): Edit button clicked once
+
+2023-06-20 11:48:38 - [MESSAGE][INFO] - Clicking on Edit button
+
+2023-06-20 11:48:38 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:48:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:40 - [MESSAGE][PASSED] - Edit button clicked once
+
+2023-06-20 11:48:40 - [TEST_STEP][PASSED] - CommonActions.clickOnElementAndTypeText(findTestObject("Object Repository/Admission/TC_56_Edit_Work profile/Job profile"), "Test job", "Job profilen field"): CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-20 11:48:40 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:48:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:43 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admission/TC_56_Edit_Work profile/Job profile'
+
+2023-06-20 11:48:43 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Admission/TC_56_Edit_Work profile/Job profile'
+
+2023-06-20 11:48:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:45 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:48:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:46 - [MESSAGE][INFO] - Sent Test jobto the Job profilen field
+
+2023-06-20 11:48:46 - [MESSAGE][PASSED] - CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-20 11:48:46 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Submit Button Floating Window"), "Save experience"): Save experience clicked once
+
+2023-06-20 11:48:46 - [MESSAGE][INFO] - Clicking on Save experience
+
+2023-06-20 11:48:46 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:48:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:48 - [MESSAGE][PASSED] - Save experience clicked once
+
+2023-06-20 11:48:48 - [TEST_STEP][PASSED] - CommonActions.elementPresent(findTestObject("Object Repository/Admission/CommonObjects/Successful alert"), "Saved work experience"): Delayed 1 second(s)
+
+2023-06-20 11:48:49 - [MESSAGE][INFO] - Validating element present or not
+
+2023-06-20 11:48:49 - [MESSAGE][PASSED] - Object 'Object Repository/Admission/CommonObjects/Successful alert' is present
+
+2023-06-20 11:48:49 - [MESSAGE][PASSED] - Element clicked once
+
+2023-06-20 11:48:49 - [MESSAGE][INFO] - Saved work experience is present
+
+2023-06-20 11:48:49 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:48:51 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admission/TC_57_Verified_view_Profile" time="9.76" classname="Test Cases/Admission/TC_57_Verified_view_Profile" status="PASSED">
+         <system-out><![CDATA[2023-06-20 11:48:51 - [TEST_CASE][PASSED] - Test Cases/Admission/TC_57_Verified_view_Profile: Test Cases/Admission/TC_57_Verified_view_Profile
+
+2023-06-20 11:48:51 - [TEST_STEP][PASSED] - CommonActions.selectLastRow(findTestObject("Object Repository/Admission/CommonObjects/Tab rows list nested")): CommonActions.selectLastRow is PASSED
+
+2023-06-20 11:48:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-20 11:48:53 - [MESSAGE][PASSED] - CommonActions.selectLastRow is PASSED
+
+2023-06-20 11:48:53 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Nested view button"), "View button"): View button clicked once
+
+2023-06-20 11:48:54 - [MESSAGE][INFO] - Clicking on View button
+
+2023-06-20 11:48:54 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:48:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:56 - [MESSAGE][PASSED] - View button clicked once
+
+2023-06-20 11:48:56 - [TEST_STEP][PASSED] - CommonActions.elementPresent(findTestObject("Object Repository/Admission/TC_57_Verified_view_Profile/Work experience edit header"), "Edit header"): Delayed 1 second(s)
+
+2023-06-20 11:48:57 - [MESSAGE][INFO] - Validating element present or not
+
+2023-06-20 11:48:57 - [MESSAGE][PASSED] - Object 'Object Repository/Admission/TC_57_Verified_view_Profile/Work experience edit header' is present
+
+2023-06-20 11:48:57 - [MESSAGE][PASSED] - Element clicked once
+
+2023-06-20 11:48:57 - [MESSAGE][INFO] - Edit header is present
+
+2023-06-20 11:48:57 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:48:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:48:58 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Cancel button floating window"), "Cancel button floting window"): Cancel button floting window clicked once
+
+2023-06-20 11:48:59 - [MESSAGE][INFO] - Clicking on Cancel button floting window
+
+2023-06-20 11:48:59 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:49:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:49:00 - [MESSAGE][PASSED] - Cancel button floting window clicked once]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admission/TC_58_Verified_delete_work_profile" time="9.857" classname="Test Cases/Admission/TC_58_Verified_delete_work_profile" status="PASSED">
+         <system-out><![CDATA[2023-06-20 11:49:00 - [TEST_CASE][PASSED] - Test Cases/Admission/TC_58_Verified_delete_work_profile: Test Cases/Admission/TC_58_Verified_delete_work_profile
+
+2023-06-20 11:49:01 - [TEST_STEP][PASSED] - CommonActions.selectLastRow(findTestObject("Object Repository/Admission/CommonObjects/Tab rows list nested")): CommonActions.selectLastRow is PASSED
+
+2023-06-20 11:49:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-20 11:49:03 - [MESSAGE][PASSED] - CommonActions.selectLastRow is PASSED
+
+2023-06-20 11:49:03 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Nested tab delete button"), "Delete button"): Delete button clicked once
+
+2023-06-20 11:49:04 - [MESSAGE][INFO] - Clicking on Delete button
+
+2023-06-20 11:49:04 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:49:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:49:06 - [MESSAGE][PASSED] - Delete button clicked once
+
+2023-06-20 11:49:06 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/yes button alert"), "yes button delete"): yes button delete clicked once
+
+2023-06-20 11:49:06 - [MESSAGE][INFO] - Clicking on yes button delete
+
+2023-06-20 11:49:06 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-20 11:49:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-20 11:49:08 - [MESSAGE][PASSED] - yes button delete clicked once
+
+2023-06-20 11:49:08 - [TEST_STEP][PASSED] - CommonActions.elementPresent(findTestObject("Object Repository/Admission/CommonObjects/Successful alert"), "Saved work experience"): Delayed 1 second(s)
+
+2023-06-20 11:49:08 - [MESSAGE][INFO] - Validating element present or not
+
+2023-06-20 11:49:09 - [MESSAGE][PASSED] - Object 'Object Repository/Admission/CommonObjects/Successful alert' is present
+
+2023-06-20 11:49:09 - [MESSAGE][PASSED] - Element clicked once
+
+2023-06-20 11:49:09 - [MESSAGE][INFO] - Saved work experience is present
+
+2023-06-20 11:49:09 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-20 11:49:10 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-20 11:46:38 - [TEST_SUITE][PASSED] - Demo Admission test suite: Test Cases/Admission/TC_58_Verified_delete_work_profile]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

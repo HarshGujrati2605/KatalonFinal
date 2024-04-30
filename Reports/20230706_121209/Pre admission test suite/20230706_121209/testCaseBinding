@@ -1,0 +1,8 @@
+{"testCaseName":"Test Cases/Pre-Admission/TC_01_Validate the login","testCaseId":"Test Cases/Pre-Admission/TC_01_Validate the login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_05_Create_Campagin_School_Master","testCaseId":"Test Cases/Pre-Admission/TC_05_Create_Campagin_School_Master","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_06_Edit_School_Campagin_Master","testCaseId":"Test Cases/Pre-Admission/TC_06_Edit_School_Campagin_Master","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_79_Verfied_school_map priority","testCaseId":"Test Cases/Pre-Admission/TC_79_Verfied_school_map priority","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_80_Verified_international school_priority","testCaseId":"Test Cases/Pre-Admission/TC_80_Verified_international school_priority","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_81_Set_default_prioirty","testCaseId":"Test Cases/Pre-Admission/TC_81_Set_default_prioirty","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_82_Copy_Mapping","testCaseId":"Test Cases/Pre-Admission/TC_82_Copy_Mapping","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_83_Verified_reset button on_Map_school_Priority","testCaseId":"Test Cases/Pre-Admission/TC_83_Verified_reset button on_Map_school_Priority","iterationVariableName":""}

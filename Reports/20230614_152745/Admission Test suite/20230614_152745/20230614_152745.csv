@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admission Test suite,Chrome 114.0.0.0,,,2023-06-14 15:27:52,2023-06-14 15:30:04,2m - 12.474s,PASSED
+,,,,,,,
+Test Cases/Pre-Admission/TC_01_Validate the login,Chrome 114.0.0.0,Validate the functionality of login,,2023-06-14 15:27:52,2023-06-14 15:28:47,54.364s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-14 15:27:53,2023-06-14 15:27:55,2.798s,PASSED
+navigateToUrl(url),Chrome 114.0.0.0,,,2023-06-14 15:27:55,2023-06-14 15:27:57,1.549s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-14 15:27:57,2023-06-14 15:27:57,0.149s,PASSED
+"click(findTestObject(""Object Repository/preadmission/TC_01/Page_Academia/Admin_tab""))",Chrome 114.0.0.0,,,2023-06-14 15:27:57,2023-06-14 15:27:58,0.505s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/preadmission/TC_01/Page_Academia/input_Username  Email_email""), Username, ""Username textfield"")",Chrome 114.0.0.0,,,2023-06-14 15:27:58,2023-06-14 15:28:04,6.801s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/preadmission/TC_01/Page_Academia/input_Password_password""), Password, ""Password textfield"")",Chrome 114.0.0.0,,,2023-06-14 15:28:04,2023-06-14 15:28:11,6.414s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_01/Page_Academia/input_Forgot password_signin""), ""Sign in button"")",Chrome 114.0.0.0,,,2023-06-14 15:28:11,2023-06-14 15:28:13,1.701s,PASSED
+delay(30),Chrome 114.0.0.0,,,2023-06-14 15:28:13,2023-06-14 15:28:43,30.015s,PASSED
+"CommonActions.elementPresent(findTestObject(""Object Repository/preadmission/TC_01/Page_Academia/label_Administrator""), ""Adminstartor portal header"")",Chrome 114.0.0.0,,,2023-06-14 15:28:43,2023-06-14 15:28:45,2.198s,PASSED
+"CommonActions.verifyExactElementText(findTestObject(""Object Repository/preadmission/TC_01/Page_Academia/label_Administrator""), AdminPortalHeaderText, ""Adminstartor portal header"")",Chrome 114.0.0.0,,,2023-06-14 15:28:45,2023-06-14 15:28:47,1.910s,PASSED
+,,,,,,,
+Test Cases/Admission/TC_19_Verified_Add Selection process,Chrome 114.0.0.0,,,2023-06-14 15:28:47,2023-06-14 15:29:13,25.940s,PASSED
+"mouseOver(findTestObject(""Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admissions Tab""))",Chrome 114.0.0.0,,,2023-06-14 15:28:47,2023-06-14 15:28:48,0.547s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admissions Tab""), ""Admissions tab"")",Chrome 114.0.0.0,,,2023-06-14 15:28:48,2023-06-14 15:28:50,2.457s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-14 15:28:50,2023-06-14 15:28:52,2.011s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesment process""), ""Assesment process"")",Chrome 114.0.0.0,,,2023-06-14 15:28:52,2023-06-14 15:28:54,2.018s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Add button""), ""Add button"")",Chrome 114.0.0.0,,,2023-06-14 15:28:54,2023-06-14 15:28:57,3.268s,PASSED
+AssesmentProcessName = CommonActions.randomNameGenerator(),Chrome 114.0.0.0,,,2023-06-14 15:28:57,2023-06-14 15:28:57,0.026s,PASSED
+out.println(AssesmentProcessName),Chrome 114.0.0.0,,,2023-06-14 15:28:57,2023-06-14 15:28:57,0.018s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesement process name""), AssesmentProcessName, ""Asssement name field"")",Chrome 114.0.0.0,,,2023-06-14 15:28:57,2023-06-14 15:29:04,6.449s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesment process dropdown""), ""Assesment process dropdown"")",Chrome 114.0.0.0,,,2023-06-14 15:29:04,2023-06-14 15:29:06,1.987s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admission option""), ""Admission option"")",Chrome 114.0.0.0,,,2023-06-14 15:29:06,2023-06-14 15:29:08,2.115s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Save button""), ""Save button"")",Chrome 114.0.0.0,,,2023-06-14 15:29:08,2023-06-14 15:29:10,2.012s,PASSED
+"CommonActions.elementPresent(findTestObject(""Object Repository/Admission/TC_01_ Pre-requisites for Admission/Record added alert""), ""Assesment name added alert"")",Chrome 114.0.0.0,,,2023-06-14 15:29:10,2023-06-14 15:29:13,2.597s,PASSED
+,,,,,,,
+Test Cases/Admission/TC_23_Verified_Verify Selection process stages,Chrome 114.0.0.0,,,2023-06-14 15:29:13,2023-06-14 15:29:52,38.997s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Add button""), ""Add button"")",Chrome 114.0.0.0,,,2023-06-14 15:29:13,2023-06-14 15:29:16,2.579s,PASSED
+AssesmentProcessNameWithStage = CommonActions.randomNameGenerator(),Chrome 114.0.0.0,,,2023-06-14 15:29:16,2023-06-14 15:29:16,0.001s,PASSED
+out.println(AssesmentProcessNameWithStage),Chrome 114.0.0.0,,,2023-06-14 15:29:16,2023-06-14 15:29:16,0.000s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesement process name""), AssesmentProcessNameWithStage, ""Asssement name field"")",Chrome 114.0.0.0,,,2023-06-14 15:29:16,2023-06-14 15:29:22,6.625s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesment process dropdown""), ""Assesment process dropdown"")",Chrome 114.0.0.0,,,2023-06-14 15:29:22,2023-06-14 15:29:24,2.029s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admission option""), ""Admission option"")",Chrome 114.0.0.0,,,2023-06-14 15:29:24,2023-06-14 15:29:26,2.152s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Save button""), ""Save button"")",Chrome 114.0.0.0,,,2023-06-14 15:29:26,2023-06-14 15:29:28,1.987s,PASSED
+"CommonActions.elementPresent(findTestObject(""Object Repository/Admission/TC_01_ Pre-requisites for Admission/Record added alert""), ""Assesment name added alert"")",Chrome 114.0.0.0,,,2023-06-14 15:29:28,2023-06-14 15:29:31,2.526s,PASSED
+"CommonActions.selectLastRow(findTestObject(""Object Repository/Admission/TC_20_Verified_Edit_selection process/List of Assesment""))",Chrome 114.0.0.0,,,2023-06-14 15:29:31,2023-06-14 15:29:34,2.655s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Edit Buttton""), ""Edit last row"")",Chrome 114.0.0.0,,,2023-06-14 15:29:34,2023-06-14 15:29:36,2.717s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Nested Tab Add button""), ""Add button"")",Chrome 114.0.0.0,,,2023-06-14 15:29:36,2023-06-14 15:29:39,2.384s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/Admission/TC_37_Pre-requisites Assesment process creation with Stage/Stage ID dropdown""), ""Assessment Stage"", ""Stage Dropdowm"")",Chrome 114.0.0.0,,,2023-06-14 15:29:39,2023-06-14 15:29:45,6.255s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admission/TC_37_Pre-requisites Assesment process creation with Stage/Stage ID dropdown""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-06-14 15:29:45,2023-06-14 15:29:45,0.510s,PASSED
+delay(2),Chrome 114.0.0.0,,,2023-06-14 15:29:45,2023-06-14 15:29:47,2.004s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/TC_37_Pre-requisites Assesment process creation with Stage/Expected Number of days stage""), ""Number of days"")",Chrome 114.0.0.0,,,2023-06-14 15:29:47,2023-06-14 15:29:49,2.031s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Submit Button Floating Window""), ""Submit button"")",Chrome 114.0.0.0,,,2023-06-14 15:29:49,2023-06-14 15:29:52,2.120s,PASSED
+,,,,,,,
+Test Cases/Admission/TC_24_Verified_Edit Selection process stages,Chrome 114.0.0.0,,,2023-06-14 15:29:52,2023-06-14 15:30:04,12.872s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Nested Tab rows""), ""First row from data"")",Chrome 114.0.0.0,,,2023-06-14 15:29:52,2023-06-14 15:29:54,2.387s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Nested Edit button""), ""Edit first row"")",Chrome 114.0.0.0,,,2023-06-14 15:29:54,2023-06-14 15:29:56,1.989s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/Admission/TC_24_Verified_Edit Selection process stages/Remark""), ""Test stage confguration"", ""Remark field"")",Chrome 114.0.0.0,,,2023-06-14 15:29:56,2023-06-14 15:30:03,6.188s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Submit Button Floating Window""), ""sumbit button"")",Chrome 114.0.0.0,,,2023-06-14 15:30:03,2023-06-14 15:30:04,1.875s,PASSED

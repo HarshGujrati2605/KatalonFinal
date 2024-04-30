@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/studrnt list/Page_Academia/span_Administrator",
+      "brokenLocator": "//label[contains(text() , \u0027Administrator\u0027)]\n",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027Administrator \u0027 or . \u003d \u0027Administrator \u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/studrnt list/Page_Academia/span_Administrator_BASIC.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/studrnt list/Page_Academia/div_",
+      "brokenLocator": "//td[@id\u003d\u0027ext-gen4443\u0027]/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*[(text() \u003d \u0027 \u0027 or . \u003d \u0027 \u0027)]",
+      "proposedLocatorMethod": "BASIC",
+      "recoveryMethod": "BASIC",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/studrnt list/Page_Academia/div__BASIC.png"
+    }
+  ]
+}

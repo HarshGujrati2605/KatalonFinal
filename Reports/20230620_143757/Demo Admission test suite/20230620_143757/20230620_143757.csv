@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demo Admission test suite,Chrome 114.0.0.0,,,2023-06-20 14:38:04,2023-06-20 14:40:45,2m - 40.072s,PASSED
+,,,,,,,
+Test Cases/Admission/TC_54_Validate_Application_Search_Filter,Chrome 114.0.0.0,,,2023-06-20 14:38:05,2023-06-20 14:39:16,1m - 11.373s,PASSED
+"callTestCase(findTestCase(""Pre-Admission/TC_01_Validate the login""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-20 14:38:05,2023-06-20 14:38:59,54.395s,PASSED
+"mouseOver(findTestObject(""Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admissions Tab""))",Chrome 114.0.0.0,,,2023-06-20 14:38:59,2023-06-20 14:39:00,0.652s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admissions Tab""), ""Admissions tab"")",Chrome 114.0.0.0,,,2023-06-20 14:39:00,2023-06-20 14:39:02,2.168s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/TC_54_Validate_Application_Search_Filter/Applications""), ""Application tab"")",Chrome 114.0.0.0,,,2023-06-20 14:39:02,2023-06-20 14:39:05,2.925s,PASSED
+"CommonActions.elementPresent(findTestObject(""Object Repository/Admission/TC_54_Validate_Application_Search_Filter/Application Tab""), ""Application tab"")",Chrome 114.0.0.0,,,2023-06-20 14:39:05,2023-06-20 14:39:09,3.881s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Search button""), ""search button"")",Chrome 114.0.0.0,,,2023-06-20 14:39:09,2023-06-20 14:39:12,2.916s,PASSED
+"CommonActions.elementPresent(findTestObject(""Object Repository/Admission/TC_54_Validate_Application_Search_Filter/Search results header""), ""Search results header"")",Chrome 114.0.0.0,,,2023-06-20 14:39:12,2023-06-20 14:39:16,4.117s,PASSED
+,,,,,,,
+Test Cases/Admission/TC_55_Validate_Application_profile_work experiance,Chrome 114.0.0.0,,,2023-06-20 14:39:16,2023-06-20 14:40:03,47.030s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Search button""), ""search button"")",Chrome 114.0.0.0,,,2023-06-20 14:39:17,2023-06-20 14:39:19,2.616s,PASSED
+"CommonActions.elementPresent(findTestObject(""Object Repository/Admission/TC_54_Validate_Application_Search_Filter/Search results header""), ""Search results header"")",Chrome 114.0.0.0,,,2023-06-20 14:39:19,2023-06-20 14:39:23,3.592s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Row Selection""), ""First row is selected"")",Chrome 114.0.0.0,,,2023-06-20 14:39:23,2023-06-20 14:39:25,1.958s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Edit Buttton""), ""Edit button"")",Chrome 114.0.0.0,,,2023-06-20 14:39:25,2023-06-20 14:39:31,6.454s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/History tab""), ""History"")",Chrome 114.0.0.0,,,2023-06-20 14:39:31,2023-06-20 14:39:36,4.866s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/Work experience option""), ""Work experience"")",Chrome 114.0.0.0,,,2023-06-20 14:39:36,2023-06-20 14:39:39,2.877s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Nested Tab Add button""), ""Add button experience"")",Chrome 114.0.0.0,,,2023-06-20 14:39:39,2023-06-20 14:39:42,2.639s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/Employer text field""), ""Test employee"", ""Employer text field"")",Chrome 114.0.0.0,,,2023-06-20 14:39:42,2023-06-20 14:39:48,6.492s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/department text field""), ""Test departnment"", ""Department text field"")",Chrome 114.0.0.0,,,2023-06-20 14:39:48,2023-06-20 14:39:54,6.354s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/TC_55_Validate_Application_profile_work experiance/Joining date""), ""Joining date"")",Chrome 114.0.0.0,,,2023-06-20 14:39:54,2023-06-20 14:39:56,2.031s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Today button calendar""), ""Today button calendar"")",Chrome 114.0.0.0,,,2023-06-20 14:39:56,2023-06-20 14:39:58,1.995s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Submit Button Floating Window""), ""Save experience"")",Chrome 114.0.0.0,,,2023-06-20 14:39:58,2023-06-20 14:40:00,1.949s,PASSED
+"CommonActions.elementPresent(findTestObject(""Object Repository/Admission/CommonObjects/Successful alert""), ""Saved work experience"")",Chrome 114.0.0.0,,,2023-06-20 14:40:00,2023-06-20 14:40:03,2.798s,PASSED
+,,,,,,,
+Test Cases/Admission/TC_56_Verified_Edit_Work profile,Chrome 114.0.0.0,,,2023-06-20 14:40:03,2023-06-20 14:40:20,16.505s,PASSED
+"CommonActions.selectLastRow(findTestObject(""Object Repository/Admission/CommonObjects/Tab rows list nested""))",Chrome 114.0.0.0,,,2023-06-20 14:40:04,2023-06-20 14:40:06,2.611s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Nested Edit button""), ""Edit button"")",Chrome 114.0.0.0,,,2023-06-20 14:40:06,2023-06-20 14:40:09,2.476s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/Admission/TC_56_Edit_Work profile/Job profile""), ""Test job"", ""Job profilen field"")",Chrome 114.0.0.0,,,2023-06-20 14:40:09,2023-06-20 14:40:15,6.127s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Submit Button Floating Window""), ""Save experience"")",Chrome 114.0.0.0,,,2023-06-20 14:40:15,2023-06-20 14:40:17,2.141s,PASSED
+"CommonActions.elementPresent(findTestObject(""Object Repository/Admission/CommonObjects/Successful alert""), ""Saved work experience"")",Chrome 114.0.0.0,,,2023-06-20 14:40:17,2023-06-20 14:40:20,2.776s,PASSED
+,,,,,,,
+Test Cases/Admission/TC_57_Verified_view_Profile,Chrome 114.0.0.0,,,2023-06-20 14:40:20,2023-06-20 14:40:30,10.174s,PASSED
+"CommonActions.selectLastRow(findTestObject(""Object Repository/Admission/CommonObjects/Tab rows list nested""))",Chrome 114.0.0.0,,,2023-06-20 14:40:20,2023-06-20 14:40:23,2.442s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Nested view button""), ""View button"")",Chrome 114.0.0.0,,,2023-06-20 14:40:23,2023-06-20 14:40:25,2.512s,PASSED
+"CommonActions.elementPresent(findTestObject(""Object Repository/Admission/TC_57_Verified_view_Profile/Work experience edit header""), ""Edit header"")",Chrome 114.0.0.0,,,2023-06-20 14:40:25,2023-06-20 14:40:28,2.780s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Cancel button floating window""), ""Cancel button floting window"")",Chrome 114.0.0.0,,,2023-06-20 14:40:28,2023-06-20 14:40:30,2.082s,PASSED
+,,,,,,,
+Test Cases/Admission/TC_58_Verified_delete_work_profile,Chrome 114.0.0.0,,,2023-06-20 14:40:30,2023-06-20 14:40:40,9.728s,PASSED
+"CommonActions.selectLastRow(findTestObject(""Object Repository/Admission/CommonObjects/Tab rows list nested""))",Chrome 114.0.0.0,,,2023-06-20 14:40:30,2023-06-20 14:40:33,2.669s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Nested tab delete button""), ""Delete button"")",Chrome 114.0.0.0,,,2023-06-20 14:40:33,2023-06-20 14:40:35,2.291s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/yes button alert""), ""yes button delete"")",Chrome 114.0.0.0,,,2023-06-20 14:40:35,2023-06-20 14:40:37,1.936s,PASSED
+"CommonActions.elementPresent(findTestObject(""Object Repository/Admission/CommonObjects/Successful alert""), ""Saved work experience"")",Chrome 114.0.0.0,,,2023-06-20 14:40:37,2023-06-20 14:40:40,2.406s,PASSED
+,,,,,,,
+Test Cases/Admission/TC__59Verified_Edit_with out_select_Record,Chrome 114.0.0.0,,,2023-06-20 14:40:40,2023-06-20 14:40:45,4.903s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Admission/CommonObjects/Nested Edit button""), ""Edit button"")",Chrome 114.0.0.0,,,2023-06-20 14:40:40,2023-06-20 14:40:42,2.170s,PASSED
+"CommonActions.elementPresent(findTestObject(""Object Repository/Admission/CommonObjects/Pleaase select reocrd alert""), ""Please select record alert"")",Chrome 114.0.0.0,,,2023-06-20 14:40:42,2023-06-20 14:40:45,2.369s,PASSED

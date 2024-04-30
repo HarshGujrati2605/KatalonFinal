@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admission Test suite" time="132.474" tests="4" failures="0" errors="0">
+   <testsuite name="Admission Test suite" tests="4" failures="0" errors="0" time="132.474" skipped="0" timestamp="2023-06-14 15:27:52" hostname="Laxman Jagarlamud - LAPTOP-LNCQBP1R" id="Test Suites/Admission Test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Laxman Jagarlamud\\git\\qa-automation-regression-ui\\Reports\\20230614_152745\\Admission Test suite\\20230614_152745"/>
+         <property name="logFiles" value="C:\\Users\\Laxman Jagarlamud\\git\\qa-automation-regression-ui\\Reports\\20230614_152745\\Admission Test suite\\20230614_152745\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Laxman Jagarlamud - LAPTOP-LNCQBP1R"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.29"/>
+         <property name="sessionId" value="759860030795697ac2983984fd7c9ce9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Pre-Admission/TC_01_Validate the login" time="54.364" classname="Test Cases/Pre-Admission/TC_01_Validate the login" status="PASSED">
+         <system-out><![CDATA[2023-06-14 15:27:52 - [TEST_CASE][PASSED] - Test Cases/Pre-Admission/TC_01_Validate the login: Test Cases/Pre-Admission/TC_01_Validate the login
+
+2023-06-14 15:27:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-14 15:27:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-14 15:27:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 15:27:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-14 15:27:55 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://regression1.academiaerp.com/' successfully
+
+2023-06-14 15:27:57 - [MESSAGE][PASSED] - Navigate to 'https://regression1.academiaerp.com/' successfully
+
+2023-06-14 15:27:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-14 15:27:57 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-14 15:27:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/preadmission/TC_01/Page_Academia/Admin_tab")): Object: 'Object Repository/preadmission/TC_01/Page_Academia/Admin_tab' is clicked on
+
+2023-06-14 15:27:58 - [MESSAGE][PASSED] - Object: 'Object Repository/preadmission/TC_01/Page_Academia/Admin_tab' is clicked on
+
+2023-06-14 15:27:58 - [TEST_STEP][PASSED] - CommonActions.clickOnElementAndTypeText(findTestObject("Object Repository/preadmission/TC_01/Page_Academia/input_Username  Email_email"), Username, "Username textfield"): CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-14 15:27:59 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:28:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:28:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:28:02 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/preadmission/TC_01/Page_Academia/input_Username  Email_email'
+
+2023-06-14 15:28:02 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/preadmission/TC_01/Page_Academia/input_Username  Email_email'
+
+2023-06-14 15:28:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:28:03 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-14 15:28:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:28:04 - [MESSAGE][INFO] - Sent sysadminto the Username textfield
+
+2023-06-14 15:28:04 - [MESSAGE][PASSED] - CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-14 15:28:04 - [TEST_STEP][PASSED] - CommonActions.clickOnElementAndTypeText(findTestObject("Object Repository/preadmission/TC_01/Page_Academia/input_Password_password"), Password, "Password textfield"): CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-14 15:28:05 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:28:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:28:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:28:08 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/preadmission/TC_01/Page_Academia/input_Password_password'
+
+2023-06-14 15:28:08 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/preadmission/TC_01/Page_Academia/input_Password_password'
+
+2023-06-14 15:28:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:28:10 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-14 15:28:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:28:11 - [MESSAGE][INFO] - Sent passwordto the Password textfield
+
+2023-06-14 15:28:11 - [MESSAGE][PASSED] - CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-14 15:28:11 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/preadmission/TC_01/Page_Academia/input_Forgot password_signin"), "Sign in button"): Sign in button clicked once
+
+2023-06-14 15:28:11 - [MESSAGE][INFO] - Clicking on Sign in button
+
+2023-06-14 15:28:11 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:28:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:28:13 - [MESSAGE][PASSED] - Sign in button clicked once
+
+2023-06-14 15:28:13 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+2023-06-14 15:28:43 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2023-06-14 15:28:43 - [TEST_STEP][PASSED] - CommonActions.elementPresent(findTestObject("Object Repository/preadmission/TC_01/Page_Academia/label_Administrator"), "Adminstartor portal header"): Delayed 1 second(s)
+
+2023-06-14 15:28:43 - [MESSAGE][INFO] - Validating element present or not
+
+2023-06-14 15:28:43 - [MESSAGE][PASSED] - Object 'Object Repository/preadmission/TC_01/Page_Academia/label_Administrator' is present
+
+2023-06-14 15:28:43 - [MESSAGE][PASSED] - Element clicked once
+
+2023-06-14 15:28:43 - [MESSAGE][INFO] - Adminstartor portal header is present
+
+2023-06-14 15:28:44 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-14 15:28:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:28:45 - [TEST_STEP][PASSED] - CommonActions.verifyExactElementText(findTestObject("Object Repository/preadmission/TC_01/Page_Academia/label_Administrator"), AdminPortalHeaderText, "Adminstartor portal header"): Delayed 1 second(s)
+
+2023-06-14 15:28:45 - [MESSAGE][PASSED] - Adminstartor portal headertext is verified
+
+2023-06-14 15:28:46 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-14 15:28:47 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admission/TC_19_Verified_Add Selection process" time="25.94" classname="Test Cases/Admission/TC_19_Verified_Add Selection process" status="PASSED">
+         <system-out><![CDATA[2023-06-14 15:28:47 - [TEST_CASE][PASSED] - Test Cases/Admission/TC_19_Verified_Add Selection process: Test Cases/Admission/TC_19_Verified_Add Selection process
+
+2023-06-14 15:28:47 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admissions Tab")): Object: 'Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admissions Tab' is hovered
+
+2023-06-14 15:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admissions Tab' is hovered
+
+2023-06-14 15:28:48 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admissions Tab"), "Admissions tab"): Admissions tab clicked once
+
+2023-06-14 15:28:49 - [MESSAGE][INFO] - Clicking on Admissions tab
+
+2023-06-14 15:28:49 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:28:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:28:50 - [MESSAGE][PASSED] - Admissions tab clicked once
+
+2023-06-14 15:28:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-14 15:28:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-14 15:28:52 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesment process"), "Assesment process"): Assesment process clicked once
+
+2023-06-14 15:28:53 - [MESSAGE][INFO] - Clicking on Assesment process
+
+2023-06-14 15:28:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:28:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:28:54 - [MESSAGE][PASSED] - Assesment process clicked once
+
+2023-06-14 15:28:54 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Add button"), "Add button"): Add button clicked once
+
+2023-06-14 15:28:55 - [MESSAGE][INFO] - Clicking on Add button
+
+2023-06-14 15:28:55 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:28:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:28:57 - [MESSAGE][PASSED] - Add button clicked once
+
+2023-06-14 15:28:57 - [TEST_STEP][PASSED] - AssesmentProcessName = CommonActions.randomNameGenerator(): CommonActions.randomNameGenerator is PASSED
+
+2023-06-14 15:28:57 - [MESSAGE][PASSED] - CommonActions.randomNameGenerator is PASSED
+
+2023-06-14 15:28:57 - [TEST_STEP][PASSED] - out.println(AssesmentProcessName): null
+
+2023-06-14 15:28:57 - [TEST_STEP][PASSED] - CommonActions.clickOnElementAndTypeText(findTestObject("Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesement process name"), AssesmentProcessName, "Asssement name field"): CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-14 15:28:58 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:28:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:01 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesement process name'
+
+2023-06-14 15:29:01 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesement process name'
+
+2023-06-14 15:29:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:03 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-14 15:29:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:04 - [MESSAGE][INFO] - Sent AutomationcFtLxRto the Asssement name field
+
+2023-06-14 15:29:04 - [MESSAGE][PASSED] - CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-14 15:29:04 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesment process dropdown"), "Assesment process dropdown"): Assesment process dropdown clicked once
+
+2023-06-14 15:29:04 - [MESSAGE][INFO] - Clicking on Assesment process dropdown
+
+2023-06-14 15:29:05 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:06 - [MESSAGE][PASSED] - Assesment process dropdown clicked once
+
+2023-06-14 15:29:06 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admission option"), "Admission option"): Admission option clicked once
+
+2023-06-14 15:29:06 - [MESSAGE][INFO] - Clicking on Admission option
+
+2023-06-14 15:29:07 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:08 - [MESSAGE][PASSED] - Admission option clicked once
+
+2023-06-14 15:29:08 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Save button"), "Save button"): Save button clicked once
+
+2023-06-14 15:29:08 - [MESSAGE][INFO] - Clicking on Save button
+
+2023-06-14 15:29:09 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:10 - [MESSAGE][PASSED] - Save button clicked once
+
+2023-06-14 15:29:10 - [TEST_STEP][PASSED] - CommonActions.elementPresent(findTestObject("Object Repository/Admission/TC_01_ Pre-requisites for Admission/Record added alert"), "Assesment name added alert"): Delayed 1 second(s)
+
+2023-06-14 15:29:11 - [MESSAGE][INFO] - Validating element present or not
+
+2023-06-14 15:29:11 - [MESSAGE][PASSED] - Object 'Object Repository/Admission/TC_01_ Pre-requisites for Admission/Record added alert' is present
+
+2023-06-14 15:29:11 - [MESSAGE][PASSED] - Element clicked once
+
+2023-06-14 15:29:11 - [MESSAGE][INFO] - Assesment name added alert is present
+
+2023-06-14 15:29:12 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-14 15:29:13 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admission/TC_23_Verified_Verify Selection process stages" time="38.997" classname="Test Cases/Admission/TC_23_Verified_Verify Selection process stages" status="PASSED">
+         <system-out><![CDATA[2023-06-14 15:29:13 - [TEST_CASE][PASSED] - Test Cases/Admission/TC_23_Verified_Verify Selection process stages: Test Cases/Admission/TC_23_Verified_Verify Selection process stages
+
+2023-06-14 15:29:13 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Add button"), "Add button"): Add button clicked once
+
+2023-06-14 15:29:13 - [MESSAGE][INFO] - Clicking on Add button
+
+2023-06-14 15:29:14 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:16 - [MESSAGE][PASSED] - Add button clicked once
+
+2023-06-14 15:29:16 - [TEST_STEP][PASSED] - AssesmentProcessNameWithStage = CommonActions.randomNameGenerator(): CommonActions.randomNameGenerator is PASSED
+
+2023-06-14 15:29:16 - [MESSAGE][PASSED] - CommonActions.randomNameGenerator is PASSED
+
+2023-06-14 15:29:16 - [TEST_STEP][PASSED] - out.println(AssesmentProcessNameWithStage): null
+
+2023-06-14 15:29:16 - [TEST_STEP][PASSED] - CommonActions.clickOnElementAndTypeText(findTestObject("Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesement process name"), AssesmentProcessNameWithStage, "Asssement name field"): CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-14 15:29:17 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:19 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesement process name'
+
+2023-06-14 15:29:20 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesement process name'
+
+2023-06-14 15:29:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:21 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-14 15:29:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:22 - [MESSAGE][INFO] - Sent AutomationNbgWLnto the Asssement name field
+
+2023-06-14 15:29:22 - [MESSAGE][PASSED] - CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-14 15:29:22 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/TC_01_ Pre-requisites for Admission/Assesment process dropdown"), "Assesment process dropdown"): Assesment process dropdown clicked once
+
+2023-06-14 15:29:23 - [MESSAGE][INFO] - Clicking on Assesment process dropdown
+
+2023-06-14 15:29:23 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:24 - [MESSAGE][PASSED] - Assesment process dropdown clicked once
+
+2023-06-14 15:29:24 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/TC_01_ Pre-requisites for Admission/Admission option"), "Admission option"): Admission option clicked once
+
+2023-06-14 15:29:25 - [MESSAGE][INFO] - Clicking on Admission option
+
+2023-06-14 15:29:25 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:26 - [MESSAGE][PASSED] - Admission option clicked once
+
+2023-06-14 15:29:26 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Save button"), "Save button"): Save button clicked once
+
+2023-06-14 15:29:27 - [MESSAGE][INFO] - Clicking on Save button
+
+2023-06-14 15:29:27 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:28 - [MESSAGE][PASSED] - Save button clicked once
+
+2023-06-14 15:29:28 - [TEST_STEP][PASSED] - CommonActions.elementPresent(findTestObject("Object Repository/Admission/TC_01_ Pre-requisites for Admission/Record added alert"), "Assesment name added alert"): Delayed 1 second(s)
+
+2023-06-14 15:29:29 - [MESSAGE][INFO] - Validating element present or not
+
+2023-06-14 15:29:30 - [MESSAGE][PASSED] - Object 'Object Repository/Admission/TC_01_ Pre-requisites for Admission/Record added alert' is present
+
+2023-06-14 15:29:30 - [MESSAGE][PASSED] - Element clicked once
+
+2023-06-14 15:29:30 - [MESSAGE][INFO] - Assesment name added alert is present
+
+2023-06-14 15:29:30 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-14 15:29:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:31 - [TEST_STEP][PASSED] - CommonActions.selectLastRow(findTestObject("Object Repository/Admission/TC_20_Verified_Edit_selection process/List of Assesment")): CommonActions.selectLastRow is PASSED
+
+2023-06-14 15:29:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-14 15:29:34 - [MESSAGE][PASSED] - CommonActions.selectLastRow is PASSED
+
+2023-06-14 15:29:34 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Edit Buttton"), "Edit last row"): Edit last row clicked once
+
+2023-06-14 15:29:34 - [MESSAGE][INFO] - Clicking on Edit last row
+
+2023-06-14 15:29:34 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:36 - [MESSAGE][PASSED] - Edit last row clicked once
+
+2023-06-14 15:29:36 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Nested Tab Add button"), "Add button"): Add button clicked once
+
+2023-06-14 15:29:37 - [MESSAGE][INFO] - Clicking on Add button
+
+2023-06-14 15:29:37 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:39 - [MESSAGE][PASSED] - Add button clicked once
+
+2023-06-14 15:29:39 - [TEST_STEP][PASSED] - CommonActions.clickOnElementAndTypeText(findTestObject("Object Repository/Admission/TC_37_Pre-requisites Assesment process creation with Stage/Stage ID dropdown"), "Assessment Stage", "Stage Dropdowm"): CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-14 15:29:40 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:42 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admission/TC_37_Pre-requisites Assesment process creation with Stage/Stage ID dropdown'
+
+2023-06-14 15:29:42 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Admission/TC_37_Pre-requisites Assesment process creation with Stage/Stage ID dropdown'
+
+2023-06-14 15:29:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:44 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-14 15:29:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:45 - [MESSAGE][INFO] - Sent Assessment Stageto the Stage Dropdowm
+
+2023-06-14 15:29:45 - [MESSAGE][PASSED] - CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-14 15:29:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admission/TC_37_Pre-requisites Assesment process creation with Stage/Stage ID dropdown"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admission/TC_37_Pre-requisites Assesment process creation with Stage/Stage ID dropdown'
+
+2023-06-14 15:29:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admission/TC_37_Pre-requisites Assesment process creation with Stage/Stage ID dropdown'
+
+2023-06-14 15:29:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-06-14 15:29:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-06-14 15:29:47 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/TC_37_Pre-requisites Assesment process creation with Stage/Expected Number of days stage"), "Number of days"): Number of days clicked once
+
+2023-06-14 15:29:48 - [MESSAGE][INFO] - Clicking on Number of days
+
+2023-06-14 15:29:48 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:49 - [MESSAGE][PASSED] - Number of days clicked once
+
+2023-06-14 15:29:49 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Submit Button Floating Window"), "Submit button"): Submit button clicked once
+
+2023-06-14 15:29:50 - [MESSAGE][INFO] - Clicking on Submit button
+
+2023-06-14 15:29:51 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:52 - [MESSAGE][PASSED] - Submit button clicked once]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admission/TC_24_Verified_Edit Selection process stages" time="12.872" classname="Test Cases/Admission/TC_24_Verified_Edit Selection process stages" status="PASSED">
+         <system-out><![CDATA[2023-06-14 15:29:52 - [TEST_CASE][PASSED] - Test Cases/Admission/TC_24_Verified_Edit Selection process stages: Test Cases/Admission/TC_24_Verified_Edit Selection process stages
+
+2023-06-14 15:29:52 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Nested Tab rows"), "First row from data"): First row from data clicked once
+
+2023-06-14 15:29:53 - [MESSAGE][INFO] - Clicking on First row from data
+
+2023-06-14 15:29:53 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:54 - [MESSAGE][PASSED] - First row from data clicked once
+
+2023-06-14 15:29:54 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Nested Edit button"), "Edit first row"): Edit first row clicked once
+
+2023-06-14 15:29:55 - [MESSAGE][INFO] - Clicking on Edit first row
+
+2023-06-14 15:29:55 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:56 - [MESSAGE][PASSED] - Edit first row clicked once
+
+2023-06-14 15:29:56 - [TEST_STEP][PASSED] - CommonActions.clickOnElementAndTypeText(findTestObject("Object Repository/Admission/TC_24_Verified_Edit Selection process stages/Remark"), "Test stage confguration", "Remark field"): CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-14 15:29:57 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:29:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:29:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:30:00 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admission/TC_24_Verified_Edit Selection process stages/Remark'
+
+2023-06-14 15:30:00 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Admission/TC_24_Verified_Edit Selection process stages/Remark'
+
+2023-06-14 15:30:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:30:02 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 2px solid green;');' successfully
+
+2023-06-14 15:30:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:30:03 - [MESSAGE][INFO] - Sent Test stage confgurationto the Remark field
+
+2023-06-14 15:30:03 - [MESSAGE][PASSED] - CommonActions.clickOnElementAndTypeText is PASSED
+
+2023-06-14 15:30:03 - [TEST_STEP][PASSED] - CommonActions.elementClick(findTestObject("Object Repository/Admission/CommonObjects/Submit Button Floating Window"), "sumbit button"): sumbit button clicked once
+
+2023-06-14 15:30:03 - [MESSAGE][INFO] - Clicking on sumbit button
+
+2023-06-14 15:30:03 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].setAttribute('style', 'border: 3px solid red;');' successfully
+
+2023-06-14 15:30:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-06-14 15:30:04 - [MESSAGE][PASSED] - sumbit button clicked once]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-14 15:27:52 - [TEST_SUITE][PASSED] - Admission Test suite: Test Cases/Admission/TC_24_Verified_Edit Selection process stages]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Admin_tab</name>
+   <tag></tag>
+   <elementGuidId>f55caee9-a8f0-4a32-99e7-57a66213f26a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text() = 'Administrator']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a752ac2c-ae44-48a6-a97e-a7c40fcf1f77</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>e76169e3-4c8c-4692-80d2-32df4f7cbd37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>portalSelectionLink</value>
+      <webElementGuid>b6c4e499-af65-4f31-8fcf-726361b1737a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>    Administrator Administrator     </value>
+      <webElementGuid>35aae3cf-8589-48f9-9cae-67e923f62def</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/main[1]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-4 login-section-wrapper&quot;]/div[@class=&quot;for-box-shadow&quot;]/div[@class=&quot;login-scroll&quot;]/div[@class=&quot;new-portal-links-box&quot;]/ul[1]/li[4]/a[@id=&quot;portalSelectionLink&quot;]</value>
+      <webElementGuid>15df1b74-2558-420e-8530-03c5da743c41</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@id='portalSelectionLink'])[4]</value>
+      <webElementGuid>36ca4d55-7dc7-4d1f-afb4-3f552fb7d423</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parent/Guardian'])[2]/following::a[1]</value>
+      <webElementGuid>cb8d116f-be9a-4649-b53d-37ed0486999d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Parent/Guardian'])[1]/following::a[1]</value>
+      <webElementGuid>d4d06fe5-f9c8-4537-8125-39fa6da8a86c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[4]</value>
+      <webElementGuid>2990df4a-94eb-4b71-9da8-df7938d866b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a</value>
+      <webElementGuid>a61d1df9-77ef-46ea-a50b-8258866129ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'portalSelectionLink' and (text() = '    Administrator Administrator     ' or . = '    Administrator Administrator     ')]</value>
+      <webElementGuid>bfe38ee6-a695-4876-ba3f-5764c8b5f12e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

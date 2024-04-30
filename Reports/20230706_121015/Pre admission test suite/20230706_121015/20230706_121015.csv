@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pre admission test suite,,,,2023-07-06 12:10:24,2023-07-06 12:11:03,38.459s,FAILED
+,,,,,,,
+Test Cases/Pre-Admission/TC_05_Create_Campagin_School_Master,,,,2023-07-06 12:10:26,2023-07-06 12:10:26,0.077s,FAILED
+"mouseOver(findTestObject(""Object Repository/preadmission/TC_02 Create Campaign/Pre-admission Tab""))",,,,2023-07-06 12:10:26,2023-07-06 12:10:26,0.063s,FAILED
+,,,,,,,
+Test Cases/Pre-Admission/TC_06_Edit_School_Campagin_Master,,,,2023-07-06 12:10:39,2023-07-06 12:10:43,4.171s,FAILED
+delay(2),,,,2023-07-06 12:10:39,2023-07-06 12:10:41,2.020s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_06_Edit_School _Campaign_Master/Created school campaign""), ""School campaign from list"")",,,,2023-07-06 12:10:41,2023-07-06 12:10:41,0.048s,FAILED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_06_Edit_School _Campaign_Master/Edit school button""), ""Edit school button"")",,,,2023-07-06 12:10:41,2023-07-06 12:10:41,0.047s,FAILED
+delay(2),,,,2023-07-06 12:10:41,2023-07-06 12:10:43,2.013s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_06_Edit_School _Campaign_Master/Close school master edit window""), ""Close school campain window tab"")",,,,2023-07-06 12:10:43,2023-07-06 12:10:43,0.039s,FAILED
+,,,,,,,
+Test Cases/Pre-Admission/TC_79_Verfied_school_map priority,,,,2023-07-06 12:10:44,2023-07-06 12:10:44,0.112s,FAILED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_81_Set_default_prioirty/Map school priority tab""), ""Map school Priority"")",,,,2023-07-06 12:10:44,2023-07-06 12:10:44,0.047s,FAILED
+"CommonActions.selectionOptionFromDropdown(findTestObject(""Object Repository/preadmission/TC_81_Set_default_prioirty/Brand campus dropdown""), BrandCampus)",,,,2023-07-06 12:10:44,2023-07-06 12:10:44,0.049s,FAILED
+,,,,,,,
+Test Cases/Pre-Admission/TC_80_Verified_international school_priority,,,,2023-07-06 12:10:50,2023-07-06 12:10:53,2.128s,FAILED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_80_Verified_international school_priority/I1 Radio button""), ""I1 priority radio button"")",,,,2023-07-06 12:10:50,2023-07-06 12:10:51,0.031s,FAILED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_79_Verfied_school_map priority/Save button""), ""Save button"")",,,,2023-07-06 12:10:51,2023-07-06 12:10:51,0.047s,FAILED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_81_Set_default_prioirty/yes button""), ""Yes button"")",,,,2023-07-06 12:10:51,2023-07-06 12:10:51,0.032s,FAILED
+delay(2),,,,2023-07-06 12:10:51,2023-07-06 12:10:53,2.012s,PASSED
+,,,,,,,
+Test Cases/Pre-Admission/TC_81_Set_default_prioirty,,,,2023-07-06 12:10:59,2023-07-06 12:11:02,2.146s,FAILED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_81_Set_default_prioirty/School list second row""), ""School list second row data"")",,,,2023-07-06 12:10:59,2023-07-06 12:10:59,0.041s,FAILED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_81_Set_default_prioirty/Set default priority button""), ""Default priority button"")",,,,2023-07-06 12:10:59,2023-07-06 12:10:59,0.047s,FAILED
+"CommonActions.selectOptionFromDropdown(findTestObject(""Object Repository/preadmission/TC_81_Set_default_prioirty/School Priority dropdown""), 1)",,,,2023-07-06 12:10:59,2023-07-06 12:11:02,2.052s,FAILED
+,,,,,,,
+Test Cases/Pre-Admission/TC_82_Copy_Mapping,,,,2023-07-06 12:11:02,2023-07-06 12:11:02,0.159s,FAILED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_81_Set_default_prioirty/School list second row""), ""School list second row data"")",,,,2023-07-06 12:11:02,2023-07-06 12:11:02,0.063s,FAILED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_82_Copy_Mapping/Copy Mapping Button""), ""Copy Mapping"")",,,,2023-07-06 12:11:02,2023-07-06 12:11:02,0.043s,FAILED
+"CommonActions.selectionOptionFromDropdown(findTestObject(""Object Repository/preadmission/TC_82_Copy_Mapping/Brand campus dropdown""), BrandCampusMapping)",,,,2023-07-06 12:11:02,2023-07-06 12:11:02,0.053s,FAILED
+,,,,,,,
+Test Cases/Pre-Admission/TC_83_Verified_reset button on_Map_school_Priority,,,,2023-07-06 12:11:03,2023-07-06 12:11:03,0.079s,FAILED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_83_Verified_reset button on_Map_school_Priority/Reset button""), ""Reset button"")",,,,2023-07-06 12:11:03,2023-07-06 12:11:03,0.063s,FAILED

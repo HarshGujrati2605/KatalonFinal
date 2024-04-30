@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admission Test suite,,,,2023-06-14 10:23:26,2023-06-14 10:23:26,0.645s,PASSED
+,,,,,,,
+Test Cases/Admission/TC_24_Verify Selection process stages(interview),,,,2023-06-14 10:23:26,2023-06-14 10:23:26,0.313s,PASSED
+return null,,,,2023-06-14 10:23:26,2023-06-14 10:23:26,0.000s,PASSED

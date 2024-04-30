@@ -1,0 +1,85 @@
+{"testCaseName":"Test Cases/Pre-Admission/TC_01_Validate the login","testCaseId":"Test Cases/Pre-Admission/TC_01_Validate the login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_02 Create Campaign","testCaseId":"Test Cases/Pre-Admission/TC_02 Create Campaign","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_03_Delete_Campaign","testCaseId":"Test Cases/Pre-Admission/TC_03_Delete_Campaign","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_04_View Campaign","testCaseId":"Test Cases/Pre-Admission/TC_04_View Campaign","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_05_Create_Campagin_School_Master","testCaseId":"Test Cases/Pre-Admission/TC_05_Create_Campagin_School_Master","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_06_Edit_School_Campagin_Master","testCaseId":"Test Cases/Pre-Admission/TC_06_Edit_School_Campagin_Master","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_79_Verfied_school_map priority","testCaseId":"Test Cases/Pre-Admission/TC_79_Verfied_school_map priority","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_80_Verified_international school_priority","testCaseId":"Test Cases/Pre-Admission/TC_80_Verified_international school_priority","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_81_Set_default_prioirty","testCaseId":"Test Cases/Pre-Admission/TC_81_Set_default_prioirty","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_82_Copy_Mapping","testCaseId":"Test Cases/Pre-Admission/TC_82_Copy_Mapping","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_83_Verified_reset button on_Map_school_Priority","testCaseId":"Test Cases/Pre-Admission/TC_83_Verified_reset button on_Map_school_Priority","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_07_Delete_School_Master","testCaseId":"Test Cases/Pre-Admission/TC_07_Delete_School_Master","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_08_Verify_Search_Leads","testCaseId":"Test Cases/Pre-Admission/TC_08_Verify_Search_Leads","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_09_Create_Lead","testCaseId":"Test Cases/Pre-Admission/TC_09_Create_Lead","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_10_Edit_Lead_Details","testCaseId":"Test Cases/Pre-Admission/TC_10_Edit_Lead_Details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_11_Edit_Student_Details","testCaseId":"Test Cases/Pre-Admission/TC_11_Edit_Student_Details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_12_Add_admission_details","testCaseId":"Test Cases/Pre-Admission/TC_12_Add_admission_details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_13_Edit_Admission_Details","testCaseId":"Test Cases/Pre-Admission/TC_13_Edit_Admission_Details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_14_Delete_Admission details","testCaseId":"Test Cases/Pre-Admission/TC_14_Delete_Admission details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_15_Follow-up_details","testCaseId":"Test Cases/Pre-Admission/TC_15_Follow-up_details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_16_Follow-up_details close","testCaseId":"Test Cases/Pre-Admission/TC_16_Follow-up_details close","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_17_Verified_Next_Schedule_Follow-up","testCaseId":"Test Cases/Pre-Admission/TC_17_Verified_Next_Schedule_Follow-up","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_18_Book Apppintment","testCaseId":"Test Cases/Pre-Admission/TC_18_Book Apppintment","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_19_Edit_Appointmnet","testCaseId":"Test Cases/Pre-Admission/TC_19_Edit_Appointmnet","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_20_View_Appointment","testCaseId":"Test Cases/Pre-Admission/TC_20_View_Appointment","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_21_Delete_Appointment","testCaseId":"Test Cases/Pre-Admission/TC_21_Delete_Appointment","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_22_Verified_Communication_History_by_Email","testCaseId":"Test Cases/Pre-Admission/TC_22_Verified_Communication_History_by_Email","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_23_TC_22_Verified_Communication_History_by_SMS","testCaseId":"Test Cases/Pre-Admission/TC_23_TC_22_Verified_Communication_History_by_SMS","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_24_Verified_Closure_details","testCaseId":"Test Cases/Pre-Admission/TC_24_Verified_Closure_details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_25_Verified_Managge target_Search_Functionality Grade","testCaseId":"Test Cases/Pre-Admission/TC_25_Verified_Managge target_Search_Functionality Grade","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_26_Verified_Search_Functionality_by_Campus","testCaseId":"Test Cases/Pre-Admission/TC_26_Verified_Search_Functionality_by_Campus","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_27_Verified_Search_Functionality_by_Campus School","testCaseId":"Test Cases/Pre-Admission/TC_27_Verified_Search_Functionality_by_Campus School","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_28_Verified_Search_Functionality_by_School phase","testCaseId":"Test Cases/Pre-Admission/TC_28_Verified_Search_Functionality_by_School phase","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_29_Verified_Lead_Target","testCaseId":"Test Cases/Pre-Admission/TC_29_Verified_Lead_Target","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_30_Verified_Application_Target","testCaseId":"Test Cases/Pre-Admission/TC_30_Verified_Application_Target","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_31_Verified_Enrollment_preivous_year","testCaseId":"Test Cases/Pre-Admission/TC_31_Verified_Enrollment_preivous_year","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_32_Verified_original_Budget","testCaseId":"Test Cases/Pre-Admission/TC_32_Verified_original_Budget","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_33_Verfied_Revised_budget","testCaseId":"Test Cases/Pre-Admission/TC_33_Verfied_Revised_budget","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_34_Verified_Enrollment_Target","testCaseId":"Test Cases/Pre-Admission/TC_34_Verified_Enrollment_Target","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_35_Verified_building_capacity","testCaseId":"Test Cases/Pre-Admission/TC_35_Verified_building_capacity","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_36_Verifired_Building_Capacity_speicallist","testCaseId":"Test Cases/Pre-Admission/TC_36_Verifired_Building_Capacity_speicallist","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_37_Verified_Manage target_by_staff_Search functionality_by_Presentation","testCaseId":"Test Cases/Pre-Admission/TC_37_Verified_Manage target_by_staff_Search functionality_by_Presentation","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_38_Verified_Manage target_by_staff_Search functionality_by_Admission","testCaseId":"Test Cases/Pre-Admission/TC_38_Verified_Manage target_by_staff_Search functionality_by_Admission","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_39_Verified_Manage target_by_staff_Search functionality_by_Admission offer","testCaseId":"Test Cases/Pre-Admission/TC_39_Verified_Manage target_by_staff_Search functionality_by_Admission offer","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_40_Verified_Manage target_by_staff_Search functionality_by_Application","testCaseId":"Test Cases/Pre-Admission/TC_40_Verified_Manage target_by_staff_Search functionality_by_Application","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_41_Verified_Manage target_by_staff_Search functionality_by_Appointmnet","testCaseId":"Test Cases/Pre-Admission/TC_41_Verified_Manage target_by_staff_Search functionality_by_Appointmnet","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_42_Verified_Manage target_by_staff_Search functionality_by_Enquiry","testCaseId":"Test Cases/Pre-Admission/TC_42_Verified_Manage target_by_staff_Search functionality_by_Enquiry","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_43_Verified_Manage target_by_staff_Search functionality_by_Program","testCaseId":"Test Cases/Pre-Admission/TC_43_Verified_Manage target_by_staff_Search functionality_by_Program","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_44_Verified_Add_staff_details","testCaseId":"Test Cases/Pre-Admission/TC_44_Verified_Add_staff_details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_45_Verified_delate_staff_details","testCaseId":"Test Cases/Pre-Admission/TC_45_Verified_delate_staff_details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_46_Verified_Past_Campaign_Dashboard","testCaseId":"Test Cases/Pre-Admission/TC_46_Verified_Past_Campaign_Dashboard","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_47_Verified_past_campiagn_details","testCaseId":"Test Cases/Pre-Admission/TC_47_Verified_past_campiagn_details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_48_Verified_Total_Enquiry","testCaseId":"Test Cases/Pre-Admission/TC_48_Verified_Total_Enquiry","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_49_Verified_generated_applicaions","testCaseId":"Test Cases/Pre-Admission/TC_49_Verified_generated_applicaions","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_50_Verified_Enrolled_student report","testCaseId":"Test Cases/Pre-Admission/TC_50_Verified_Enrolled_student report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_51_Grades_covers_report","testCaseId":"Test Cases/Pre-Admission/TC_51_Grades_covers_report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_52_Verified_brands_coverd","testCaseId":"Test Cases/Pre-Admission/TC_52_Verified_brands_coverd","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_53_Verified_Campus_report","testCaseId":"Test Cases/Pre-Admission/TC_53_Verified_Campus_report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_54_Verified_follow-up_schedule report","testCaseId":"Test Cases/Pre-Admission/TC_54_Verified_follow-up_schedule report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_55_Verified_follow-up_schedule report_corpoarate","testCaseId":"Test Cases/Pre-Admission/TC_55_Verified_follow-up_schedule report_corpoarate","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_56_Verified_follow-up_schedule report_corpoarate_Counselling","testCaseId":"Test Cases/Pre-Admission/TC_56_Verified_follow-up_schedule report_corpoarate_Counselling","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_57_Verified_taotal_pending lead_report","testCaseId":"Test Cases/Pre-Admission/TC_57_Verified_taotal_pending lead_report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_58_Verified_count of leads","testCaseId":"Test Cases/Pre-Admission/TC_58_Verified_count of leads","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_59_Verified_Lead_closure_rate","testCaseId":"Test Cases/Pre-Admission/TC_59_Verified_Lead_closure_rate","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_60_Lead_summary_report","testCaseId":"Test Cases/Pre-Admission/TC_60_Lead_summary_report","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_61_Verified_Follow-uo_Dash board","testCaseId":"Test Cases/Pre-Admission/TC_61_Verified_Follow-uo_Dash board","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_62_Appointment_dash board","testCaseId":"Test Cases/Pre-Admission/TC_62_Appointment_dash board","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_63_Mnaage leads_Send messages_to _my self","testCaseId":"Test Cases/Pre-Admission/TC_63_Mnaage leads_Send messages_to _my self","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_64_Mnaage leads_Send messages_to _Parent","testCaseId":"Test Cases/Pre-Admission/TC_64_Mnaage leads_Send messages_to _Parent","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_65_Mnaage leads_Send messages_to _Parent_And_Includemyself","testCaseId":"Test Cases/Pre-Admission/TC_65_Mnaage leads_Send messages_to _Parent_And_Includemyself","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_66_Verified_check_duplicatename","testCaseId":"Test Cases/Pre-Admission/TC_66_Verified_check_duplicatename","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_67_Verified_check_duplicate_Email","testCaseId":"Test Cases/Pre-Admission/TC_67_Verified_check_duplicate_Email","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_68_Verified_check_duplicate_Mobilw","testCaseId":"Test Cases/Pre-Admission/TC_68_Verified_check_duplicate_Mobilw","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_69_Verified_check_duplicate_phone","testCaseId":"Test Cases/Pre-Admission/TC_69_Verified_check_duplicate_phone","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_70_Verified_Follow-up_Details","testCaseId":"Test Cases/Pre-Admission/TC_70_Verified_Follow-up_Details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_71_Verified_Send_Reminder","testCaseId":"Test Cases/Pre-Admission/TC_71_Verified_Send_Reminder","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_72_Verified_view_Lead_details","testCaseId":"Test Cases/Pre-Admission/TC_72_Verified_view_Lead_details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_73_Verified_Edit_lead_Details","testCaseId":"Test Cases/Pre-Admission/TC_73_Verified_Edit_lead_Details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_74_Verified_Apply Column details from Column Button in Admission_ screen","testCaseId":"Test Cases/Pre-Admission/TC_74_Verified_Apply Column details from Column Button in Admission_ screen","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_76_Verified_Apply Column details from Column Button in Appointment screen","testCaseId":"Test Cases/Pre-Admission/TC_76_Verified_Apply Column details from Column Button in Appointment screen","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_75_Verified_Apply Column details from Column Button in Follow up details screen","testCaseId":"Test Cases/Pre-Admission/TC_75_Verified_Apply Column details from Column Button in Follow up details screen","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_77_Verified_Reset_colum button in_Follow-up details","testCaseId":"Test Cases/Pre-Admission/TC_77_Verified_Reset_colum button in_Follow-up details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_78_Delete_lead_details","testCaseId":"Test Cases/Pre-Admission/TC_78_Delete_lead_details","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_84_Verified_Search_leads_by_corporate","testCaseId":"Test Cases/Pre-Admission/TC_84_Verified_Search_leads_by_corporate","iterationVariableName":""}
+{"testCaseName":"Test Cases/Pre-Admission/TC_85_Verified_Search_leads_by_Couselling","testCaseId":"Test Cases/Pre-Admission/TC_85_Verified_Search_leads_by_Couselling","iterationVariableName":""}

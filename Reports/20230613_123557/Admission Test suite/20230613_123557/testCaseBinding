@@ -1,0 +1,12 @@
+{"testCaseName":"Test Cases/Admission/TC_01_ Pre-requisites for Admission","testCaseId":"Test Cases/Admission/TC_01_ Pre-requisites for Admission","iterationVariableName":""}
+{"testCaseName":"Test Cases/Admission/TC_37_Pre-requisites Assesment process creation with Stage","testCaseId":"Test Cases/Admission/TC_37_Pre-requisites Assesment process creation with Stage","iterationVariableName":""}
+{"testCaseName":"Test Cases/Admission/TC_02_Verify _Not Configured combination","testCaseId":"Test Cases/Admission/TC_02_Verify _Not Configured combination","iterationVariableName":""}
+{"testCaseName":"Test Cases/Admission/TC_03_Verify _configureed_combination","testCaseId":"Test Cases/Admission/TC_03_Verify _configureed_combination","iterationVariableName":""}
+{"testCaseName":"Test Cases/Admission/TC_04_Verify Individual selection","testCaseId":"Test Cases/Admission/TC_04_Verify Individual selection","iterationVariableName":""}
+{"testCaseName":"Test Cases/Admission/TC_05_Verify selection batch","testCaseId":"Test Cases/Admission/TC_05_Verify selection batch","iterationVariableName":""}
+{"testCaseName":"Test Cases/Admission/TC_06_Verify Stage setting","testCaseId":"Test Cases/Admission/TC_06_Verify Stage setting","iterationVariableName":""}
+{"testCaseName":"Test Cases/Admission/TC_07_Verify seat limit and dates","testCaseId":"Test Cases/Admission/TC_07_Verify seat limit and dates","iterationVariableName":""}
+{"testCaseName":"Test Cases/Admission/TC_09_Verify Application setting","testCaseId":"Test Cases/Admission/TC_09_Verify Application setting","iterationVariableName":""}
+{"testCaseName":"Test Cases/Admission/TC_10_Verify Form sale date","testCaseId":"Test Cases/Admission/TC_10_Verify Form sale date","iterationVariableName":""}
+{"testCaseName":"Test Cases/Admission/TC_11_Verify form submission date","testCaseId":"Test Cases/Admission/TC_11_Verify form submission date","iterationVariableName":""}
+{"testCaseName":"Test Cases/Admission/TC_12_Verify with Admission setting","testCaseId":"Test Cases/Admission/TC_12_Verify with Admission setting","iterationVariableName":""}

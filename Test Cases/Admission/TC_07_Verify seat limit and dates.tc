@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_07_Verify seat limit and dates</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>81bf7173-fb44-4958-9b44-dd674e6975f6</testCaseGuid>
+</TestCaseEntity>

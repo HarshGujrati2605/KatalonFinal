@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_76_Verified_Apply Column details from Column Button in Appointment screen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51b618f2-dada-470b-a6b1-dcac36b86820</testCaseGuid>
+</TestCaseEntity>

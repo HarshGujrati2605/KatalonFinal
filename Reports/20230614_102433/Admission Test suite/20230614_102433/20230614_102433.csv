@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Admission Test suite,Chrome 114.0.0.0,,,2023-06-14 10:24:40,2023-06-14 10:25:36,56.344s,PASSED
+,,,,,,,
+Test Cases/Pre-Admission/TC_01_Validate the login,Chrome 114.0.0.0,Validate the functionality of login,,2023-06-14 10:24:40,2023-06-14 10:25:36,55.849s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-14 10:24:41,2023-06-14 10:24:45,4.235s,PASSED
+navigateToUrl(url),Chrome 114.0.0.0,,,2023-06-14 10:24:45,2023-06-14 10:24:47,1.716s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-06-14 10:24:47,2023-06-14 10:24:47,0.181s,PASSED
+"click(findTestObject(""Object Repository/preadmission/TC_01/Page_Academia/Admin_tab""))",Chrome 114.0.0.0,,,2023-06-14 10:24:47,2023-06-14 10:24:47,0.523s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/preadmission/TC_01/Page_Academia/input_Username  Email_email""), Username, ""Username textfield"")",Chrome 114.0.0.0,,,2023-06-14 10:24:47,2023-06-14 10:24:54,6.930s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/preadmission/TC_01/Page_Academia/input_Password_password""), Password, ""Password textfield"")",Chrome 114.0.0.0,,,2023-06-14 10:24:54,2023-06-14 10:25:00,6.234s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/preadmission/TC_01/Page_Academia/input_Forgot password_signin""), ""Sign in button"")",Chrome 114.0.0.0,,,2023-06-14 10:25:00,2023-06-14 10:25:02,1.792s,PASSED
+delay(30),Chrome 114.0.0.0,,,2023-06-14 10:25:02,2023-06-14 10:25:32,30.013s,PASSED
+"CommonActions.elementPresent(findTestObject(""Object Repository/preadmission/TC_01/Page_Academia/label_Administrator""), ""Adminstartor portal header"")",Chrome 114.0.0.0,,,2023-06-14 10:25:32,2023-06-14 10:25:34,2.118s,PASSED
+"CommonActions.verifyExactElementText(findTestObject(""Object Repository/preadmission/TC_01/Page_Academia/label_Administrator""), AdminPortalHeaderText, ""Adminstartor portal header"")",Chrome 114.0.0.0,,,2023-06-14 10:25:34,2023-06-14 10:25:36,1.759s,PASSED
+,,,,,,,
+Test Cases/Admission/TC_24_Verify Selection process stages(interview),Chrome 114.0.0.0,,,2023-06-14 10:25:36,2023-06-14 10:25:36,0.220s,PASSED
+return null,Chrome 114.0.0.0,,,2023-06-14 10:25:36,2023-06-14 10:25:36,0.000s,PASSED

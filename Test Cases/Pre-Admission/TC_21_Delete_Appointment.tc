@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_21_Delete_Appointment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa418507-ebef-4593-bc35-9ba3990688dc</testCaseGuid>
+</TestCaseEntity>

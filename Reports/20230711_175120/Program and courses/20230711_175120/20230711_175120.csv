@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Program and courses,Chrome 114.0.0.0,,,2023-07-11 17:51:28,2023-07-11 17:53:10,1m - 42.293s,PASSED
+,,,,,,,
+Test Cases/Program and courses/TC_27_Verified_ Mangae course topics Seaarch Filter,Chrome 114.0.0.0,,,2023-07-11 17:51:28,2023-07-11 17:52:46,1m - 18.022s,PASSED
+"callTestCase(findTestCase(""Pre-Admission/TC_01_Validate the login""), [:], STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-11 17:51:29,2023-07-11 17:52:26,57.189s,PASSED
+"mouseOver(findTestObject(""Object Repository/Program and courses/TC_01_Verified_program_serach_filter/Grades and Subjects""))",Chrome 114.0.0.0,,,2023-07-11 17:52:26,2023-07-11 17:52:26,0.668s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Program and courses/TC_01_Verified_program_serach_filter/Grades and Subjects""), ""Grades and Subjects"")",Chrome 114.0.0.0,,,2023-07-11 17:52:26,2023-07-11 17:52:29,2.518s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Program and courses/TC_27_Verified_ Mangae course topics Seaarch Filter/Managae course_ TopicT ab""), ""managae course topic tab"")",Chrome 114.0.0.0,,,2023-07-11 17:52:29,2023-07-11 17:52:33,3.996s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/Program and courses/TC_27_Verified_ Mangae course topics Seaarch Filter/course name""), ""test"", ""coursename fileld"")",Chrome 114.0.0.0,,,2023-07-11 17:52:33,2023-07-11 17:52:41,7.911s,PASSED
+"sendKeys(findTestObject(""Object Repository/Program and courses/TC_27_Verified_ Mangae course topics Seaarch Filter/course name""), Keys.chord(DOWN))",Chrome 114.0.0.0,,,2023-07-11 17:52:41,2023-07-11 17:52:41,0.434s,PASSED
+"sendKeys(findTestObject(""Object Repository/Program and courses/TC_27_Verified_ Mangae course topics Seaarch Filter/course name""), Keys.chord(ENTER))",Chrome 114.0.0.0,,,2023-07-11 17:52:41,2023-07-11 17:52:42,0.574s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Program and courses/TC_27_Verified_ Mangae course topics Seaarch Filter/Search button""), ""search button"")",Chrome 114.0.0.0,,,2023-07-11 17:52:42,2023-07-11 17:52:44,2.167s,PASSED
+"CommonActions.elementPresent(findTestObject(""Object Repository/Program and courses/TC_27_Verified_ Mangae course topics Seaarch Filter/Subject topic Header""), ""Search header"")",Chrome 114.0.0.0,,,2023-07-11 17:52:44,2023-07-11 17:52:46,2.236s,PASSED
+,,,,,,,
+Test Cases/Program and courses/TC_28_Verified_Add_course_Topic,Chrome 114.0.0.0,,,2023-07-11 17:52:46,2023-07-11 17:53:10,23.991s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Program and courses/TC_28_Verified_Add_course_Topic/add button""), ""add button"")",Chrome 114.0.0.0,,,2023-07-11 17:52:47,2023-07-11 17:52:49,2.177s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/Program and courses/TC_28_Verified_Add_course_Topic/Topic sequence""), ""11"", ""Topicsequnce filed"")",Chrome 114.0.0.0,,,2023-07-11 17:52:49,2023-07-11 17:52:55,6.399s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/Program and courses/TC_28_Verified_Add_course_Topic/Topic code""), ""katalon9"", ""topiccode field"")",Chrome 114.0.0.0,,,2023-07-11 17:52:55,2023-07-11 17:53:02,6.324s,PASSED
+"CommonActions.clickOnElementAndTypeText(findTestObject(""Object Repository/Program and courses/TC_28_Verified_Add_course_Topic/Topic name""), ""Katalon"", ""topicname filed"")",Chrome 114.0.0.0,,,2023-07-11 17:53:02,2023-07-11 17:53:08,6.702s,PASSED
+"CommonActions.elementClick(findTestObject(""Object Repository/Program and courses/TC_28_Verified_Add_course_Topic/Save button""), ""save button"")",Chrome 114.0.0.0,,,2023-07-11 17:53:08,2023-07-11 17:53:10,2.038s,PASSED
